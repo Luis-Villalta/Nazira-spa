@@ -6,16 +6,20 @@
 
 * { 
     font-family: 'Poppins', sans-serif;
-margin: 0;
-padding: 0;
+margin: 0%;
+padding: 0%;
 box-sizing: border-box;
+text-decoration: none;
+outline: none;
+border: none;
+text-transform: capitalize;
 }
 
 *::selection { background: var(--limon);
 color: pink; }
 
 html { font-size: 100%;
-;}
+; }
 
 body {  background-color: pink;}
 
@@ -32,7 +36,7 @@ padding: 0 9%;
 padding-top: 7.5rem;
 padding-bottom: 2rem;}
 
-.boton {display: inline-block;
+.boton  {display: inline-block;
 margin-top: 1rem;
 padding: .8rem 3rem;
 border-radius: 5rem;
@@ -44,13 +48,13 @@ box-shadow: 0 .5rem  1rem rgba(0, 0, 0, .1);    }
 
 
 .heading {text-align: center;
-background: var(black);
-color: black;
-background-clip: text  ;
-font-size: 3.5rem;
-padding: 1rem;
-}
-
+    background: var(black);
+    color: black;
+    background-clip: text  ;
+    font-size: 3.5rem;
+    padding: 1rem;
+    }
+    
 
 
 
@@ -68,6 +72,9 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 z-index: 1000; }
+
+
+
 
 header .logonazirap {width: 10%;
     height: 10%
@@ -89,7 +96,7 @@ opacity: 0;}
 
 @media (max-width:768px) { header label { visibility: visible; opacity: 1; } }
 
-header .navegacion { position: absolute;
+header .navbar { position: absolute;
 top: 70%;
 left: 0;
 width: 100%; 
@@ -103,14 +110,14 @@ opacity: 0;
 transition: .2s linear;
    }
 
-   header .navegacion { display: block;
+   header .navbar { display: block;
 margin: 2rem 0rem;
 font-size: 2rem;}
 
-   header input:checked ~ .navegacion { transform: scaleY(1);
+   header  input:checked ~ .navbar { transform: scaleY(1);
 opacity: 1;}
 
-header input:checked ~ label::before {content: '\f00d';  }
+header  input:checked ~ label::before {content: '\f00d';  }
 
 .inicio {   flex-flow: column-reverse;}
 
@@ -338,6 +345,47 @@ color: black;
 text-align: center;
 margin: 2rem;
 text-transform: uppercase;  }
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
