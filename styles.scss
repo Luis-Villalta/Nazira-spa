@@ -15,7 +15,7 @@ align-items: center;
 justify-content: center;
 ;}
 
-.inicio .content h3 {font-size: 5.5rem;
+.inicio .content h1 {font-size: 5.5rem;
 color: aqua;
 text-transform: uppercase;}
 
@@ -23,8 +23,45 @@ text-transform: uppercase;}
     color: #666;
     padding: 1rem 0;}
 
+.servicios .caja-contenedora {display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;}
+
+.servicios .caja-contenedora .caja {flex: 1 1 30rem;
+background: white;
+border: .1rem solid rgb(156, 115, 115);
+box-shadow: 0.5rem 1rem rgb(243, 184, 184);
+margin: 1.5rem;
+padding: 3rem 2rem;
+text-align: center;
+}
+
+.servicios .caja-contenedora .caja h3 {
+font-size: 2rem;
+color: #666;
+padding-top: 1rem;
+}
+
 .inicio {flex-flow: column-reverse;}
 
+.heading {text-align: center;
+;}
+
+.detalles .caja-contenedor {display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.btn {display: inline-block;
+margin-top: 1rem;
+padding: .8rem 3rem;
+border-radius: 5rem;
+background: aqua;
+font-size: 2rem;
+color: white;
+cursor: pointer;
+}
 
 
 
