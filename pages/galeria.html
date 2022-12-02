@@ -5,64 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/logonazira.png" >
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="css/mediaQueries.css">
-    <script src="https://kit.fontawesome.com/fd08aa7c86.js" crossorigin="anonymous"></script>
-    <title>Galeria</title>
-    
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Nazira'spa</title>
 </head>
 <body>
     
-        <header>
-    <img src="../img/logonazira.png"  class="logonazirap" alt="logonazira">
-    
-    <input type="checkbox" id="menu-bar"> <img src="" alt="">
-    <label for="menu-bar" class="" ></label>
-    
-    <nav class="navegacion">
-        <ul>
-    
-    
-            <li><a href="../index.html">Hogar</a> </li>
-        <li><a href="../pages/servicios.html">Servicios</a></li>
-        <li><a href="../pages/sobremi.html">Sobre mi</a></li>
-        <li><a href="../pages/galeria.html">Galeria</a></li>
-        <li><a href="../pages/contacto.html">Contacto</a></li>
-        
-        </ul>
-    </nav>
-    </header>
+<header>
+<nav class="navbar navbar-expand-lg bg-light">
+<div class="container-fluid">
+<img class="logo" src="../img/logonazira.png" alt="logonazira">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="../index.html">Hogar</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../pages/sobremi.html">Sobre mi</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="../pages/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="../pages/servicios.html">Sistema en Acrílico</a></li>
+<li><a class="dropdown-item" href="../pages/servicios.html">Esmaltado Permanente</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item" href="../pages/servicios.html">Saber más</a></li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../pages/galeria.html">Galeria</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../pages/contacto.html">Contacto</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
 
-<section class="galeriafotos" id="galeria">
+<h1>Galería</h1>
 
-    
-    
-    <div>
-        <h2 class="heading">GALERIA</h2>
+<div class="row">
+    <div class="column">
+    <img src="../img/IMG-20221013-WA0061.jpg" alt="">
+    <img src="../img/IMG-20221113-WA0035.jpg" alt="">
+    <img src="../img/IMG-20221113-WA0092.jpg" alt="">
+    <img src="../img/IMG-20220929-WA0132.jpg" alt="">
+
+    <div class="column">
+    <img src="../img/IMG-20220929-WA0135.jpg" alt="">
+    <img src="../img/IMG-20220930-WA0070.jpg" alt="">
+    <img src="../img/IMG-20221013-WA0060.jpg" alt="">
+    <img src="../img/acrilico.jpg" alt="">
     </div>
-    
-   <div class="detalles">
-    
 
-    <img src="../img/esmaltadopermanente.jpg" alt="" width="20%" height="20%">
-    <h3 class="soyunh3">Esmaltado Permanente</h3>
-    <a href="servicios.html" class="boton">PRECIO</a>
-
-   </div>
-
-
-   <div class="detalles2">
-
-    <img src="../img/acrilico.jpg" alt="" width="20%" height="20%">
-    <h4 class="soyunh4">Sistema en Acrilico</h4>
-    <a href="servicios.html" class="boton">PRECIO</a>
     </div>
-
-    <div class="detalles3">
-
-        <img src="../img/acrogel.jpg" alt="" width="20%" height="20%">
-        <h5 class="soyunh5">Esmaltado masglo gel</h5>
-        <a href="servicios.html" class="boton">Precio</a>
+</div>
 </div>
 
 
@@ -78,31 +80,21 @@
 
 
 
+
+
+
+
+
 </section>
-           
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-            
-           <footer>
+<footer>
 
             <h4>Todos los derechos reservados © 2022 </h4>
             <h5>Página creada por Luis Villalta</h5>
             <h6>Proyecto CoderHouse</h6>
-           </footer>
+</footer>
 
 
     
-
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
