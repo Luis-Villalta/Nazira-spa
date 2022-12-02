@@ -5,79 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/logonazira.png" >
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="css/mediaQueries.css">
-    <script src="https://kit.fontawesome.com/fd08aa7c86.js" crossorigin="anonymous"></script>
-    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Nazira'spa</title>
 </head>
 <body>
     
-        <header>
-    <img src="../img/logonazira.png"  class="logonazirap" alt="logonazira">
-    
-    <input type="checkbox" id="menu-bar"> <img src="" alt="">
-    <label for="menu-bar" class="" ></label>
-    
-    <nav class="navegacion">
-        <ul>
-    
-    
-            <li><a href="../index.html">Hogar</a> </li>
-        <li><a href="../pages/servicios.html">Servicios</a></li>
-        <li><a href="../pages/sobremi.html">Sobre mi</a></li>
-        <li><a href="../pages/galeria.html">Galeria</a></li>
-        <li><a href="../pages/contacto.html">Contacto</a></li>
-        
-        </ul>
-    </nav>
-    </header>
+<header>
+<nav class="navbar navbar-expand-lg bg-light">
+<div class="container-fluid">
+<img class="logo" src="../img/logonazira.png" alt="logonazira">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="../index.html">Hogar</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../pages/sobremi.html">Sobre mi</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="../pages/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="../pages/servicios.html">Sistema en Acrílico</a></li>
+<li><a class="dropdown-item" href="../pages/servicios.html">Esmaltado Permanente</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item" href="../pages/servicios.html">Saber más</a></li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../pages/galeria.html">Galeria</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../pages/contacto.html">Contacto</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
 
-
-       <section class="contactoparrafo">
 <div>
 <h1>CONTÁCTANOS PARA MÁS INFORMACIÓN AQUI ABAJO</h1>
 </div>
-       </section>
-    
-    
-    
-    
-    
-    
-    
-    
-    <!--Sección formulario-->
-            
-    
 
+<div class="container">
+    <form class="row g-3 mt-3">
+    <div class="col-6">
+        <label for="emailinput" class="form-label">Email</label>
+        <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu email">
 
+        </div>
+        <label for="inputPass" class="form-label">Contraseña</label>
+        <div class="col-6">
+            <input type="password" class="form-control" id="inputPass" placeholder="Escribe tu contraseña">
+        </div>
+        <div class="col-12">
+            <label for="inputAdress" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="inputAdress" placeholder="Dirección">
+        </div>
+        <div class="col-6">
+            <label for="cityInput" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="cityInput">
+        </div>
 
-        <footer>
-        
-        <section>   
-            <fieldset>
-            <div>
-            <form method="" class="Formulario">
-                <label for="contacto">Contáctame</label>
-                <input type="text" type="text" id="Nombre" name="Nombre" required>
-                <label for="apellido">Apellido</label>
-                <input type="text" id="Apellido" name="Apellido">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Correo Électronico">
-                <label for="mensaje">Mensaje</label>
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar">
-        
-                <h4>Todos los derechos reservados © 2022 </h4>
-            </div>
-        
-            </fieldset>
+        <div class="col-12"><button type="submit" class="btn btn-primary">Enviar</button></div>
         </form>
+        </div>
         
         
         
             
-        </footer>
+<footer></footer>
         
               
             
