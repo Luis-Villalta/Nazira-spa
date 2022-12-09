@@ -1,0 +1,135 @@
+*::selection {background: white;}
+
+body {background: white}
+
+.logo {width: 10%;
+height: 10%;}
+
+.inicio {display: flex;
+align-items: center;
+justify-content: center;
+;}
+
+.inicio .content h1 {font-size: 100px;
+color: aqua;
+text-transform: uppercase;}
+
+.inicio .content p {font-size: 30px;
+    color: #666;
+    padding: 30px;}
+
+.servicios .caja-contenedora {display: flex;
+align-items: center;
+;
+padding: 20px;}
+
+.servicios .caja-contenedora .caja {
+background: rgb(218, 204, 204);
+border: 0.5rem solid rgb(187, 147, 147);
+margin: 1.5rem;
+padding: 3rem 2rem;
+text-align: center;
+}
+
+.servicios .caja-contenedora .caja h3 {
+font-size: 40px;
+color: rgb(143, 87, 87);
+padding-top: 15px;
+padding-left: 15px;
+}
+
+.heading {text-align: center;
+font-size: 100px;
+padding-top: 100px;}
+
+
+.btn {display: inline-block;
+margin-top: 20px;
+padding: 20px;
+border-radius: 6rem;
+background: aqua;
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+h1  {font-size: 5.5rem;
+    color: aqua;
+    text-align: center;
+    justify-content: center;}
+
+.row img {width: 20%;
+    padding: 5px;
+    margin: 1.5rem;
+    flex-wrap: wrap;}
+
+
+
+
+
+
+@media (max-width: 991px) {
+
+    *::selection {background: white;}
+
+    body {background: white}
+    
+    .logo {width: 25%;
+    height: 25%;}
+    
+    .inicio {display: flex;
+    align-items: center;
+    justify-content: center;
+    ;}
+    
+    .inicio .content h1 {font-size: 3.5rem;
+        color: aqua;
+        text-transform: uppercase;
+        padding-top: 50px;}
+    
+    .inicio .content p {font-size: 1.5rem;
+        color: #666;
+        padding: 20px;
+        padding-left: 50px;}
+    
+    .servicios .caja-contenedora {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;}
+    
+    .servicios .caja-contenedora .caja {flex: 1 1 30rem;
+    background: white;
+    border: 0.5rem solid rgb(156, 115, 115);
+    margin: 1.5rem;
+    padding: 50px;
+    text-align: center;
+    }
+    
+    .servicios .caja-contenedora .caja h3 {
+    font-size: 30px;
+    color: #666;
+    padding-top: 50px;
+    }
+    
+    .inicio {flex-flow: column-reverse;}
+    
+    .heading {text-align: center;
+    font-size: 50px;}
+    
+    .btn {display: inline-block;
+    margin-top: 1rem;
+    padding: 25px;
+    padding-top: 10px;
+    border-radius: 6rem;
+    background: aqua;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    }
+    
+    .row img {width: 50%;
+        padding: 10px;
+        margin: 1rem;
+        flex-wrap: wrap;}    
+    }

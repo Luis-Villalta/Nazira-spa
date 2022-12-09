@@ -1,0 +1,124 @@
+*::selection {background: white;}
+
+body {background: white}
+
+.logo {width: 10%;
+height: 10%;}
+
+.inicio {display: flex;
+align-items: center;
+justify-content: center;
+;}
+
+.inicio .content h1 {font-size: 100px;
+color: aqua;
+text-transform: uppercase;}
+
+.inicio .content p {font-size: 30px;
+    color: #666;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;}
+
+
+
+.heading {text-align: center;
+font-size: 100px;
+padding-top: 100px;}
+
+
+
+
+h1  {font-size: 5.5rem;
+    color: aqua;
+    text-align: center;
+    justify-content: center;}
+
+
+.yocertificado {padding-left: 50px;
+height: 900px;
+padding: 90px;
+padding-top: 20px;}
+
+.certificado {text-align: center;}
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+
+    *::selection {background: white;}
+
+    body {background: white}
+    
+    .logo {width: 25%;
+    height: 25%;}
+    
+    .inicio {display: flex;
+    align-items: center;
+    justify-content: center;
+    ;}
+    
+    .inicio .content h1 {font-size: 3.3rem;
+        color: aqua;
+        text-transform: uppercase;
+        padding-top: 50px;}
+    
+    .inicio .content p {font-size: 1.5rem;
+        color: #666;
+        padding: 30px;
+        padding-left: 60px;
+        padding-right: 60px;}
+    
+    .yocertificado {height: 650px;}
+    
+    .inicio {flex-flow: column-reverse;}
+    
+    .heading {text-align: center;
+    font-size: 50px;} }
+
+    
+    
+    @media (max-width: 860px) {
+
+        *::selection {background: white;}
+
+        body {background: white}
+        
+        .logo {width: 25%;
+        height: 25%;}
+        
+        .inicio {display: flex;
+        align-items: center;
+        justify-content: center;
+        ;}
+        
+        .inicio .content h1 {font-size: 3.3rem;
+            color: aqua;
+            text-transform: uppercase;
+            padding-top: 50px;}
+        
+        .inicio .content p {font-size: 1.5rem;
+            color: #666;
+            padding: 20px;
+            padding-left: 60px;
+            padding-right: 60px;}
+        
+        .yocertificado {height: 400px;}
+
+        .certificado {text-align: center;}
+        
+        .inicio {flex-flow: column-reverse;}
+        
+        .heading {text-align: center;
+        font-size: 50px;} }  
+        
+        @media (max-width: 520px) {
+         .yocertificado {height: 300px;} 
+         .certificado {text-align: center;}  
+        }
+    
