@@ -1,6 +1,6 @@
-*::selection {background: white;}
+*::selection {background: rgb(236, 231, 231);}
 
-body {background: white}
+body {background: rgb(236, 229, 229)}
 
 .logo {width: 10%;
 height: 10%;}
@@ -35,10 +35,9 @@ h1  {font-size: 5.5rem;
     justify-content: center;}
 
 
-.yocertificado {padding-left: 50px;
-height: 900px;
-padding: 90px;
-padding-top: 20px;}
+.yocertificado {width: 1000px;
+height: auto;
+padding-bottom: 5%;}
 
 .certificado {text-align: center;}
 
@@ -51,10 +50,6 @@ padding-top: 20px;}
 
 @media (max-width: 991px) {
 
-    *::selection {background: white;}
-
-    body {background: white}
-    
     .logo {width: 25%;
     height: 25%;}
     
@@ -74,7 +69,8 @@ padding-top: 20px;}
         padding-left: 60px;
         padding-right: 60px;}
     
-    .yocertificado {height: 650px;}
+    .yocertificado {width: 600px;
+    height: auto;}
     
     .inicio {flex-flow: column-reverse;}
     
@@ -85,10 +81,6 @@ padding-top: 20px;}
     
     @media (max-width: 860px) {
 
-        *::selection {background: white;}
-
-        body {background: white}
-        
         .logo {width: 25%;
         height: 25%;}
         
@@ -108,7 +100,8 @@ padding-top: 20px;}
             padding-left: 60px;
             padding-right: 60px;}
         
-        .yocertificado {height: 400px;}
+        .yocertificado {width: 400px;
+        height: auto;}
 
         .certificado {text-align: center;}
         
@@ -118,7 +111,9 @@ padding-top: 20px;}
         font-size: 50px;} }  
         
         @media (max-width: 520px) {
-         .yocertificado {height: 300px;} 
-         .certificado {text-align: center;}  
+         .yocertificado {width: 300px;
+        height: auto;} 
+         .certificado {text-align: center;
+        }  
         }
     

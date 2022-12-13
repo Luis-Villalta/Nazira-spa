@@ -1,6 +1,6 @@
-*::selection {background: white;}
+*::selection {background: rgb(236, 228, 228);}
 
-body {background: white}
+body {background: rgb(236, 226, 226)}
 
 .logo {width: 10%;
 height: 10%;}
@@ -70,9 +70,6 @@ h1  {font-size: 5.5rem;
 
 @media (max-width: 991px) {
 
-    *::selection {background: white;}
-
-    body {background: white}
     
     .logo {width: 25%;
     height: 25%;}
