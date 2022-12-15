@@ -8,31 +8,23 @@ height: 10%;}
 .inicio {display: flex;
 align-items: center;
 justify-content: center;
-;}
+padding-top: 20px;}
 
-.inicio .content h1 {font-size: 100px;
+.inicio .content {font-size: 100px;
 color: aqua;
 text-transform: uppercase;}
 
 .inicio .content p {font-size: 30px;
-    color: #666;
+    color: rgb(110, 57, 57);
     padding: 30px;
     padding-left: 50px;
-    padding-right: 50px;}
-
-
+    padding-right: 50px;
+    font-family: 'Mukta', sans-serif;}
 
 .heading {text-align: center;
 font-size: 100px;
-padding-top: 100px;}
-
-
-
-
-h1  {font-size: 5.5rem;
-    color: aqua;
-    text-align: center;
-    justify-content: center;}
+padding-top: 100px;
+font-family: 'Poppins', sans-serif;}
 
 
 .yocertificado {width: 1000px;
@@ -40,12 +32,6 @@ height: auto;
 padding-bottom: 5%;}
 
 .certificado {text-align: center;}
-
-
-
-
-
-
 
 
 @media (max-width: 991px) {
@@ -58,7 +44,7 @@ padding-bottom: 5%;}
     justify-content: center;
     ;}
     
-    .inicio .content h1 {font-size: 3.3rem;
+    .inicio .content {font-size: 3.3rem;
         color: aqua;
         text-transform: uppercase;
         padding-top: 50px;}
@@ -75,7 +61,7 @@ padding-bottom: 5%;}
     .inicio {flex-flow: column-reverse;}
     
     .heading {text-align: center;
-    font-size: 50px;} }
+    font-size: 50px;}}
 
     
     

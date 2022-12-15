@@ -1,5 +1,4 @@
-/*Style Index*/
-@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;800&family=Poppins:wght@400;500;600&family=Signika+Negative:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;800&family=Poppins:wght@400;500;600&family=Signika+Negative:wght@500;600&display=swap"); /*Style Index*/
 *::selection {
   background: rgb(236, 225, 225);
 }
@@ -489,9 +488,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 20px;
 }
 
-.inicio .content h1 {
+.inicio .content {
   font-size: 100px;
   color: aqua;
   text-transform: uppercase;
@@ -499,23 +499,18 @@ body {
 
 .inicio .content p {
   font-size: 30px;
-  color: #666;
+  color: rgb(110, 57, 57);
   padding: 30px;
   padding-left: 50px;
   padding-right: 50px;
+  font-family: "Mukta", sans-serif;
 }
 
 .heading {
   text-align: center;
   font-size: 100px;
   padding-top: 100px;
-}
-
-h1 {
-  font-size: 5.5rem;
-  color: aqua;
-  text-align: center;
-  justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .yocertificado {
@@ -538,7 +533,7 @@ h1 {
     align-items: center;
     justify-content: center;
   }
-  .inicio .content h1 {
+  .inicio .content {
     font-size: 3.3rem;
     color: aqua;
     text-transform: uppercase;
