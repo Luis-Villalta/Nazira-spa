@@ -1,27 +1,37 @@
+/*Style Index*/
 *::selection {background: rgb(236, 225, 225);}
 
 body {background: rgb(236, 223, 223)}
 
+/*Logo*/
 .logo {width: 10%;
 height: 10%;}
 
+/*Inicio*/
 .inicio {display: flex;
 align-items: center;
 justify-content: center;
-;}
+padding-top: 20px;}
 
 .inicio .content h1 {font-size: 100px;
 color: aqua;
-text-transform: uppercase;}
+text-transform: uppercase;
+padding-bottom: 50px;
+font-family: 'Poppins', sans-serif;}
 
 .inicio .content p {font-size: 30px;
     color: #666;
-    padding: 30px;}
+    font-family: 'Mukta', sans-serif;}
 
+/*Servicios*/
 .servicios .caja-contenedora {display: flex;
 align-items: center;
 ;
 padding: 20px;}
+
+.servicios {padding-top: 30px;}
+
+.servicios .heading {font-family: 'Poppins', sans-serif;}
 
 .servicios .caja-contenedora .caja {
 background: rgb(218, 204, 204);
@@ -35,19 +45,16 @@ width: 30%;
 
 .servicios .caja-contenedora .caja h3 {
 font-size: 40px;
-color: rgb(143, 87, 87);
+color: rgb(216, 193, 193);
 padding-top: 15px;
 padding-left: 15px;
+font-family: 'Mukta', sans-serif;;
 }
 
 .img {height: 300px;}
 
-.heading {text-align: center;
-font-size: 100px;
-padding-top: 100px;}
 
-
-.btn {display: inline-block;
+.servicios .btn {display: inline-block;
 margin-top: 20px;
 padding: 20px;
 border-radius: 6rem;
@@ -57,26 +64,19 @@ color: white;
 cursor: pointer;
 }
 
-h1  {font-size: 5.5rem;
-    color: aqua;
-    text-align: center;
-    justify-content: center;}
-
+/*Contacto*/
 .contacto {padding: 50px;
 padding-left: 5px;
 padding-bottom: 50px;}
 
 .contacto .container .col-13 {text-align: center;}
 
+.contacto h1 {font-size: 5.5rem;
+font-family: 'Poppins', sans-serif;
+padding-left: 50px;}
 
 
-
-
-
-
-
-
-
+/*Media Query's*/
 @media (max-width: 991px) {
 
     
@@ -91,12 +91,16 @@ padding-bottom: 50px;}
     .inicio .content h1 {font-size: 3.3rem;
         color: aqua;
         text-transform: uppercase;
-        padding-top: 50px;}
+        padding-top: 50px;
+        font-family: 'Poppins', sans-serif;}
     
     .inicio .content p {font-size: 1.5rem;
         color: #666;
         padding: 20px;
         padding-left: 50px;}
+    
+    .servicios .heading {font-family: 'Poppins', sans-serif;}
+    
     
     .servicios .caja-contenedora {display: flex;
     align-items: center;
@@ -116,6 +120,7 @@ padding-bottom: 50px;}
     font-size: 30px;
     color: #666;
     padding-top: 50px;
+    font-family: 'Mukta', sans-serif;
     }
     
     .inicio {flex-flow: column-reverse;}
@@ -123,7 +128,7 @@ padding-bottom: 50px;}
     .heading {text-align: center;
     font-size: 50px;}
     
-    .btn {display: inline-block;
+    .servicios .btn {display: inline-block;
     margin-top: 1rem;
     padding: 25px;
     padding-top: 10px;
@@ -132,14 +137,15 @@ padding-bottom: 50px;}
     font-size: 25px;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    }
+    font-family: 'Poppins', sans-serif;}
     
    
     .img {height: 200px;}
 
     .contacto h1 {font-size: 3.3rem;
-    padding-left: 50px;
-    padding-top: 50px;}
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;}
 
     .contacto .container .col-13 {padding-left: 50px;}
 
