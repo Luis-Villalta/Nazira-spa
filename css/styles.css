@@ -102,6 +102,11 @@ body {
   padding-left: 50px;
 }
 
+.container .row .img-logo {
+  width: 70%;
+  height: auto;
+}
+
 /*Media Query's*/
 @media (max-width: 991px) {
   .logo {
