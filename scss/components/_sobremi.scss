@@ -1,105 +1,93 @@
-*::selection {background: rgb(236, 231, 231);}
+/*Estilos inicio*/
+@import '../base/variables';
+@import '../base/listas';
 
-body {background: rgb(236, 229, 229)}
+/*Selection-body*/
+    *::selection {background: nth($color-brand, 1);
+    body {background: nth($color-brand, 1)}
 
-.logo {width: 10%;
-height: 10%;}
+/*Logo*/
+    .logo {width: 10%;
+    height: 10%;}
 
-.inicio {display: flex;
-align-items: center;
-justify-content: center;
-padding-top: 20px;}
-
-.inicio .content {font-size: 100px;
-color: aqua;
-text-transform: uppercase;}
-
-.inicio .content p {font-size: 30px;
-    color: rgb(110, 57, 57);
-    padding: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-family: 'Mukta', sans-serif;}
-
-.heading {text-align: center;
-font-size: 100px;
-padding-top: 100px;
-font-family: 'Poppins', sans-serif;}
-
-
-.yocertificado {width: 1000px;
-height: auto;
-padding-bottom: 5%;}
-
-.certificado {text-align: center;}
-
-
-@media (max-width: 991px) {
-
-    .logo {width: 25%;
-    height: 25%;}
-    
+/*Inicio*/
     .inicio {display: flex;
     align-items: center;
     justify-content: center;
-    ;}
-    
-    .inicio .content {font-size: 3.3rem;
-        color: aqua;
-        text-transform: uppercase;
-        padding-top: 50px;}
-    
-    .inicio .content p {font-size: 1.5rem;
-        color: #666;
-        padding: 30px;
-        padding-left: 60px;
-        padding-right: 60px;}
-    
-    .yocertificado {width: 600px;
-    height: auto;}
-    
-    .inicio {flex-flow: column-reverse;}
-    
+    padding-top: 20px;}
+
+    .inicio .content {font-size: 100px;
+    color: nth($color-brand, 3);
+    text-transform: uppercase;}
+
+    .inicio .content p {font-size: 30px;
+    color: nth($color-brand, 7);
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: $font-secundaria;}
+
     .heading {text-align: center;
-    font-size: 50px;}}
+    font-size: 100px;
+    padding-top: 100px;
+    font-family: $font-h1;}
 
-    
-    
-    @media (max-width: 860px) {
 
+/*Media Query*/
+@media (max-width: 991px) {
+
+    /*Logo*/
         .logo {width: 25%;
         height: 25%;}
-        
+    
+    /*Inicio*/
         .inicio {display: flex;
         align-items: center;
         justify-content: center;
         ;}
+    
+        .inicio .content {font-size: 3.3rem;
+        color: nth($color-brand, 5);
+        text-transform: uppercase;
+        padding-top: 50px;}
+    
+        .inicio .content p {font-size: 1.5rem;
+        color: nth($color-brand, 7);
+        padding: 30px;
+        padding-left: 60px;
+        padding-right: 60px;}
+    
+        .inicio {flex-flow: column-reverse;}
+    
+/*Media Query*/    
+    @media (max-width: 860px) {
+
+        /*Logo*/
+            .logo {width: 25%;
+            height: 25%;}
         
-        .inicio .content h1 {font-size: 3.3rem;
-            color: aqua;
+         /*Inicio*/
+            .inicio {display: flex;
+            align-items: center;
+            justify-content: center;
+            ;}
+        
+            .inicio .content h1 {font-size: 3.3rem;
+            color: nth($color-brand, 5);
             text-transform: uppercase;
             padding-top: 50px;}
         
-        .inicio .content p {font-size: 1.5rem;
-            color: #666;
+            .inicio .content p {font-size: 1.5rem;
+            color: nth($color-brand, 7);
             padding: 20px;
             padding-left: 60px;
             padding-right: 60px;}
         
-        .yocertificado {width: 400px;
-        height: auto;}
-
-        .certificado {text-align: center;}
+            .inicio {flex-flow: column-reverse;}
         
-        .inicio {flex-flow: column-reverse;}
+            .certificado {text-align: center;}
         
-        .heading {text-align: center;
-        font-size: 50px;} }  
         
-        @media (max-width: 520px) {
-         .yocertificado {width: 300px;
-        height: auto;} 
-         .certificado {text-align: center;
-        }  
-        }
+            .heading {text-align: center;
+            font-size: 50px;} }}}
     

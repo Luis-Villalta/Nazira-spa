@@ -1,13 +1,17 @@
-*::selection {background: rgb(236, 228, 228);}
+/*Estilos inicio*/
+@import '../base/variables';
+@import '../base/listas';
 
-body {background: rgb(236, 227, 227)}
+*::selection {background: nth($color-brand, 1)}
+
+body {background: nth($color-brand, 1)}
 
 .logo {width: 10%;
 height: 10%;}
 
 
 h1  {font-size: 5.5rem;
-    color: aqua;
+    color: nth($color-brand, 3);
     text-align: center;
     justify-content: center;}
 

@@ -1,6 +1,10 @@
-*::selection {background: rgb(236, 226, 226);}
+/*Estilos inicio*/
+@import '../base/variables';
+@import '../base/listas';
 
-body {background: rgb(236, 230, 230)}
+*::selection {background: nth($color-brand, 1)}
+
+body {background: nth($color-brand, 1)}
 
 .logo {width: 10%;
 height: 10%;}
@@ -11,8 +15,8 @@ align-items: center;
 padding: 20px;}
 
 .servicios .caja-contenedora .caja {
-background: rgb(218, 204, 204);
-border: 0.5rem solid rgb(187, 147, 147);
+background-color: nth($color-brand, 7);
+border: 0.5rem solid nth($color-brand, 5);
 margin: 1.5rem;
 padding: 2rem 2rem;
 text-align: center;
@@ -20,10 +24,9 @@ text-align: center;
 
 .servicios .caja-contenedora .caja h3 {
 font-size: 40px;
-color: rgb(143, 87, 87);
+color: nth($color-brand, 6);
 padding-top: 15px;
-padding-left: 15px;
-}
+padding-left: 15px;}
 
 .heading {text-align: center;
 font-size: 100px;
@@ -31,7 +34,7 @@ padding-top: 100px;}
 
 
 h1  {font-size: 5.5rem;
-    color: aqua;
+    color: nth($color-brand, 3);
     text-align: center;
     justify-content: center;}
 
@@ -53,8 +56,8 @@ height: 250px;}
     padding: 25px;}
     
     .servicios .caja-contenedora .caja {flex: 1 1 50rem;
-    background: rgb(218, 199, 199);
-    border: 0.5rem solid rgb(156, 115, 115);
+    background: nth($color-brand, 1);
+    border: 0.5rem solid 5;
     margin: 50px;
     padding: 100px;
     text-align: center;
@@ -62,7 +65,7 @@ height: 250px;}
     
     .servicios .caja-contenedora .caja h3 {
     font-size: 40px;
-    color: rgb(161, 136, 136);}
+    color: nth($color-brand, 6)}
     
     .heading {text-align: center;
     font-size: 50px;} 
@@ -85,8 +88,8 @@ height: 250px;}
     padding: 5px;}
     
     .servicios .caja-contenedora .caja 
-    {background: rgb(218, 199, 199);
-    border: 0.5rem solid rgb(156, 115, 115);
+    {background: nth($color-brand, 1);
+    border: 0.5rem solid nth($color-brand, 1);
     margin: 30px;
     padding: 50px;
     text-align: center;
@@ -94,7 +97,7 @@ height: 250px;}
     
     .servicios .caja-contenedora .caja h3 {
     font-size: 40px;
-    color: rgb(161, 136, 136);}
+    color: nth($color-brand, 5)}
     
     .heading {text-align: center;
     font-size: 50px;} 

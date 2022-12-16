@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;800&family=Poppins:wght@400;500;600&family=Signika+Negative:wght@500;600&display=swap"); /*Style Index*/
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;800&family=Poppins:wght@400;500;600&family=Signika:wght@500;600&display=swap"); /*Estilos inicio*/
+/*Style Index*/
 *::selection {
   background: rgb(236, 225, 225);
 }
@@ -26,13 +27,13 @@ body {
   color: aqua;
   text-transform: uppercase;
   padding-bottom: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
 }
 
 .inicio .content p {
   font-size: 30px;
   color: #666;
-  font-family: "Mukta", sans-serif;
+  font-family: Mukta;
 }
 
 /*Servicios*/
@@ -47,12 +48,12 @@ body {
 }
 
 .servicios .heading {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
 }
 
 .servicios .caja-contenedora .caja {
-  background: rgb(218, 204, 204);
-  border: 0.5rem solid rgb(187, 147, 147);
+  background: #666;
+  border: 0.5rem solid rgb(216, 193, 193);
   margin: 1.5rem;
   padding: 3rem 2rem;
   text-align: center;
@@ -62,10 +63,10 @@ body {
 
 .servicios .caja-contenedora .caja h3 {
   font-size: 40px;
-  color: rgb(216, 193, 193);
+  color: white;
   padding-top: 15px;
   padding-left: 15px;
-  font-family: "Mukta", sans-serif;
+  font-family: Mukta;
 }
 
 .img {
@@ -77,9 +78,9 @@ body {
   margin-top: 20px;
   padding: 20px;
   border-radius: 6rem;
-  background: aqua;
+  background: rgb(187, 147, 147);
   font-size: 20px;
-  color: white;
+  color: #666;
   cursor: pointer;
 }
 
@@ -96,7 +97,7 @@ body {
 
 .contacto h1 {
   font-size: 5.5rem;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
   padding-left: 50px;
 }
 
@@ -116,7 +117,7 @@ body {
     color: aqua;
     text-transform: uppercase;
     padding-top: 50px;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins;
   }
   .inicio .content p {
     font-size: 1.5rem;
@@ -125,7 +126,7 @@ body {
     padding-left: 50px;
   }
   .servicios .heading {
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins;
   }
   .servicios .caja-contenedora {
     display: flex;
@@ -136,17 +137,17 @@ body {
   }
   .servicios .caja-contenedora .caja {
     flex: 1 1 30rem;
-    background: white;
-    border: 0.5rem solid rgb(156, 115, 115);
+    background: rgb(255, 255, 255);
+    border: 0.5rem solid rgb(236, 228, 228);
     margin: 1.5rem;
     padding: 50px;
     text-align: center;
   }
   .servicios .caja-contenedora .caja h3 {
     font-size: 30px;
-    color: #666;
+    color: rgb(187, 147, 147);
     padding-top: 50px;
-    font-family: "Mukta", sans-serif;
+    font-family: Mukta;
   }
   .inicio {
     flex-flow: column-reverse;
@@ -161,11 +162,11 @@ body {
     padding: 25px;
     padding-top: 10px;
     border-radius: 6rem;
-    background: aqua;
+    background: rgb(218, 204, 204);
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(236, 227, 227);
     cursor: pointer;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins;
   }
   .img {
     height: 200px;
@@ -174,18 +175,19 @@ body {
     font-size: 3.3rem;
     padding-left: 30px;
     padding-top: 50px;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins;
   }
   .contacto .container .col-13 {
     padding-left: 50px;
   }
 }
+/*Estilos inicio*/
 *::selection {
-  background: rgb(236, 228, 228);
+  background: rgb(236, 225, 225);
 }
 
 body {
-  background: rgb(236, 227, 227);
+  background: rgb(236, 225, 225);
 }
 
 .logo {
@@ -206,12 +208,13 @@ h1 {
     height: 25%;
   }
 }
+/*Estilos inicio*/
 *::selection {
-  background: rgb(236, 228, 228);
+  background: rgb(236, 225, 225);
 }
 
 body {
-  background: rgb(236, 226, 226);
+  background: rgb(236, 225, 225);
 }
 
 .logo {
@@ -219,67 +222,10 @@ body {
   height: 10%;
 }
 
-.inicio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.inicio .content h1 {
-  font-size: 100px;
-  color: aqua;
-  text-transform: uppercase;
-}
-
-.inicio .content p {
-  font-size: 30px;
-  color: #666;
-  padding: 30px;
-}
-
-.servicios .caja-contenedora {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-.servicios .caja-contenedora .caja {
-  background: rgb(218, 204, 204);
-  border: 0.5rem solid rgb(187, 147, 147);
-  margin: 1.5rem;
-  padding: 3rem 2rem;
-  text-align: center;
-}
-
-.servicios .caja-contenedora .caja h3 {
-  font-size: 40px;
-  color: rgb(143, 87, 87);
-  padding-top: 15px;
-  padding-left: 15px;
-}
-
 .heading {
   text-align: center;
   font-size: 100px;
   padding-top: 100px;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 6rem;
-  background: aqua;
-  font-size: 20px;
-  color: white;
-  cursor: pointer;
-}
-
-h1 {
-  font-size: 5.5rem;
-  color: aqua;
-  text-align: center;
-  justify-content: center;
 }
 
 .row img {
@@ -294,60 +240,9 @@ h1 {
     width: 25%;
     height: 25%;
   }
-  .inicio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .inicio .content h1 {
-    font-size: 3.5rem;
-    color: aqua;
-    text-transform: uppercase;
-    padding-top: 50px;
-  }
-  .inicio .content p {
-    font-size: 1.5rem;
-    color: #666;
-    padding: 20px;
-    padding-left: 50px;
-  }
-  .servicios .caja-contenedora {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 25px;
-  }
-  .servicios .caja-contenedora .caja {
-    flex: 1 1 30rem;
-    background: white;
-    border: 0.5rem solid rgb(156, 115, 115);
-    margin: 1.5rem;
-    padding: 50px;
-    text-align: center;
-  }
-  .servicios .caja-contenedora .caja h3 {
-    font-size: 30px;
-    color: #666;
-    padding-top: 50px;
-  }
-  .inicio {
-    flex-flow: column-reverse;
-  }
   .heading {
     text-align: center;
     font-size: 50px;
-  }
-  .btn {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 25px;
-    padding-top: 10px;
-    border-radius: 6rem;
-    background: aqua;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
   }
   .row img {
     width: 50%;
@@ -356,12 +251,13 @@ h1 {
     flex-wrap: wrap;
   }
 }
+/*Estilos inicio*/
 *::selection {
-  background: rgb(236, 226, 226);
+  background: rgb(236, 225, 225);
 }
 
 body {
-  background: rgb(236, 230, 230);
+  background: rgb(236, 225, 225);
 }
 
 .logo {
@@ -376,8 +272,8 @@ body {
 }
 
 .servicios .caja-contenedora .caja {
-  background: rgb(218, 204, 204);
-  border: 0.5rem solid rgb(187, 147, 147);
+  background-color: rgb(216, 193, 193);
+  border: 0.5rem solid #666;
   margin: 1.5rem;
   padding: 2rem 2rem;
   text-align: center;
@@ -385,7 +281,7 @@ body {
 
 .servicios .caja-contenedora .caja h3 {
   font-size: 40px;
-  color: rgb(143, 87, 87);
+  color: rgb(187, 147, 147);
   padding-top: 15px;
   padding-left: 15px;
 }
@@ -422,15 +318,15 @@ img {
   }
   .servicios .caja-contenedora .caja {
     flex: 1 1 50rem;
-    background: rgb(218, 199, 199);
-    border: 0.5rem solid rgb(156, 115, 115);
+    background: rgb(236, 225, 225);
+    border: 0.5rem solid 5;
     margin: 50px;
     padding: 100px;
     text-align: center;
   }
   .servicios .caja-contenedora .caja h3 {
     font-size: 40px;
-    color: rgb(161, 136, 136);
+    color: rgb(187, 147, 147);
   }
   .heading {
     text-align: center;
@@ -453,15 +349,15 @@ img {
     padding: 5px;
   }
   .servicios .caja-contenedora .caja {
-    background: rgb(218, 199, 199);
-    border: 0.5rem solid rgb(156, 115, 115);
+    background: rgb(236, 225, 225);
+    border: 0.5rem solid rgb(236, 225, 225);
     margin: 30px;
     padding: 50px;
     text-align: center;
   }
   .servicios .caja-contenedora .caja h3 {
     font-size: 40px;
-    color: rgb(161, 136, 136);
+    color: #666;
   }
   .heading {
     text-align: center;
@@ -471,138 +367,114 @@ img {
     width: 200px;
   }
 }
+/*Estilos inicio*/
+/*Selection-body*/
 *::selection {
-  background: rgb(236, 231, 231);
+  background: rgb(236, 225, 225);
+  /*Logo*/
+  /*Inicio*/
+  /*Media Query*/
 }
-
-body {
-  background: rgb(236, 229, 229);
+*::selection body {
+  background: rgb(236, 225, 225);
 }
-
-.logo {
+*::selection .logo {
   width: 10%;
   height: 10%;
 }
-
-.inicio {
+*::selection .inicio {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 20px;
 }
-
-.inicio .content {
+*::selection .inicio .content {
   font-size: 100px;
   color: aqua;
   text-transform: uppercase;
 }
-
-.inicio .content p {
+*::selection .inicio .content p {
   font-size: 30px;
-  color: rgb(110, 57, 57);
+  color: rgb(216, 193, 193);
   padding: 30px;
   padding-left: 50px;
   padding-right: 50px;
-  font-family: "Mukta", sans-serif;
+  font-family: Mukta;
 }
-
-.heading {
+*::selection .heading {
   text-align: center;
   font-size: 100px;
   padding-top: 100px;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
 }
-
-.yocertificado {
-  width: 1000px;
-  height: auto;
-  padding-bottom: 5%;
-}
-
-.certificado {
-  text-align: center;
-}
-
 @media (max-width: 991px) {
-  .logo {
+  *::selection {
+    /*Logo*/
+    /*Inicio*/
+    /*Media Query*/
+  }
+  *::selection .logo {
     width: 25%;
     height: 25%;
   }
-  .inicio {
+  *::selection .inicio {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .inicio .content {
+  *::selection .inicio .content {
     font-size: 3.3rem;
-    color: aqua;
+    color: #666;
     text-transform: uppercase;
     padding-top: 50px;
   }
-  .inicio .content p {
+  *::selection .inicio .content p {
     font-size: 1.5rem;
-    color: #666;
+    color: rgb(216, 193, 193);
     padding: 30px;
     padding-left: 60px;
     padding-right: 60px;
   }
-  .yocertificado {
-    width: 600px;
-    height: auto;
-  }
-  .inicio {
+  *::selection .inicio {
     flex-flow: column-reverse;
   }
-  .heading {
-    text-align: center;
-    font-size: 50px;
-  }
 }
-@media (max-width: 860px) {
-  .logo {
+@media (max-width: 991px) and (max-width: 860px) {
+  *::selection {
+    /*Logo*/
+    /*Inicio*/
+  }
+  *::selection .logo {
     width: 25%;
     height: 25%;
   }
-  .inicio {
+  *::selection .inicio {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .inicio .content h1 {
+  *::selection .inicio .content h1 {
     font-size: 3.3rem;
-    color: aqua;
+    color: #666;
     text-transform: uppercase;
     padding-top: 50px;
   }
-  .inicio .content p {
+  *::selection .inicio .content p {
     font-size: 1.5rem;
-    color: #666;
+    color: rgb(216, 193, 193);
     padding: 20px;
     padding-left: 60px;
     padding-right: 60px;
   }
-  .yocertificado {
-    width: 400px;
-    height: auto;
-  }
-  .certificado {
-    text-align: center;
-  }
-  .inicio {
+  *::selection .inicio {
     flex-flow: column-reverse;
   }
-  .heading {
+  *::selection .certificado {
+    text-align: center;
+  }
+  *::selection .heading {
     text-align: center;
     font-size: 50px;
-  }
-}
-@media (max-width: 520px) {
-  .yocertificado {
-    width: 300px;
-    height: auto;
-  }
-  .certificado {
-    text-align: center;
   }
 }
 

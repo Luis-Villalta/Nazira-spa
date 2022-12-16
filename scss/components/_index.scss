@@ -1,7 +1,11 @@
-/*Style Index*/
-*::selection {background: rgb(236, 225, 225);}
+/*Estilos inicio*/
+@import '../base/variables';
+@import '../base/listas';
 
-body {background: rgb(236, 223, 223)}
+/*Style Index*/
+*::selection {background: nth($color-brand, 1);}
+
+body {background: nth($color-brand, 2);}
 
 /*Logo*/
 .logo {width: 10%;
@@ -14,28 +18,27 @@ justify-content: center;
 padding-top: 20px;}
 
 .inicio .content h1 {font-size: 100px;
-color: aqua;
+color: nth($color-brand, 3);;
 text-transform: uppercase;
 padding-bottom: 50px;
-font-family: 'Poppins', sans-serif;}
+font-family: $font-h1;}
 
 .inicio .content p {font-size: 30px;
-    color: #666;
-    font-family: 'Mukta', sans-serif;}
+    color: nth($color-brand, 5);;
+    font-family: $font-secundaria;}
 
 /*Servicios*/
 .servicios .caja-contenedora {display: flex;
 align-items: center;
-;
 padding: 20px;}
 
 .servicios {padding-top: 30px;}
 
-.servicios .heading {font-family: 'Poppins', sans-serif;}
+.servicios .heading {font-family: $font-h1;}
 
 .servicios .caja-contenedora .caja {
-background: rgb(218, 204, 204);
-border: 0.5rem solid rgb(187, 147, 147);
+background: nth($color-brand, 5);
+border: 0.5rem solid nth($color-brand, 7);
 margin: 1.5rem;
 padding: 3rem 2rem;
 text-align: center;
@@ -45,11 +48,10 @@ width: 30%;
 
 .servicios .caja-contenedora .caja h3 {
 font-size: 40px;
-color: rgb(216, 193, 193);
+color: nth($color-brand, 8);
 padding-top: 15px;
 padding-left: 15px;
-font-family: 'Mukta', sans-serif;;
-}
+font-family: $font-secundaria;}
 
 .img {height: 300px;}
 
@@ -58,9 +60,9 @@ font-family: 'Mukta', sans-serif;;
 margin-top: 20px;
 padding: 20px;
 border-radius: 6rem;
-background: aqua;
+background: nth($color-brand, 6);
 font-size: 20px;
-color: white;
+color: nth($color-brand, 5);
 cursor: pointer;
 }
 
@@ -72,7 +74,7 @@ padding-bottom: 50px;}
 .contacto .container .col-13 {text-align: center;}
 
 .contacto h1 {font-size: 5.5rem;
-font-family: 'Poppins', sans-serif;
+font-family: $font-h1;
 padding-left: 50px;}
 
 
@@ -92,14 +94,14 @@ padding-left: 50px;}
         color: aqua;
         text-transform: uppercase;
         padding-top: 50px;
-        font-family: 'Poppins', sans-serif;}
+        font-family: $font-h1;}
     
     .inicio .content p {font-size: 1.5rem;
         color: #666;
         padding: 20px;
         padding-left: 50px;}
     
-    .servicios .heading {font-family: 'Poppins', sans-serif;}
+    .servicios .heading {font-family:$font-h1;}
     
     
     .servicios .caja-contenedora {display: flex;
@@ -109,8 +111,8 @@ padding-left: 50px;}
     padding: 25px;}
     
     .servicios .caja-contenedora .caja {flex: 1 1 30rem;
-    background: white;
-    border: 0.5rem solid rgb(156, 115, 115);
+    background: nth($color-brand, 9);
+    border: 0.5rem solid nth($color-brand, 10);
     margin: 1.5rem;
     padding: 50px;
     text-align: center;
@@ -118,9 +120,9 @@ padding-left: 50px;}
     
     .servicios .caja-contenedora .caja h3 {
     font-size: 30px;
-    color: #666;
+    color: nth($color-brand, 6);
     padding-top: 50px;
-    font-family: 'Mukta', sans-serif;
+    font-family: $font-secundaria;
     }
     
     .inicio {flex-flow: column-reverse;}
@@ -133,11 +135,11 @@ padding-left: 50px;}
     padding: 25px;
     padding-top: 10px;
     border-radius: 6rem;
-    background: aqua;
+    background: nth($color-brand, 4);
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: nth($color-brand, 11);
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;}
+    font-family: $font-h1;}
     
    
     .img {height: 200px;}
@@ -145,7 +147,7 @@ padding-left: 50px;}
     .contacto h1 {font-size: 3.3rem;
     padding-left: 30px;
     padding-top: 50px;
-    font-family: 'Poppins', sans-serif;}
+    font-family: $font-h1;}
 
     .contacto .container .col-13 {padding-left: 50px;}
 
