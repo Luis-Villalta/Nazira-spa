@@ -34,6 +34,7 @@ body {
   font-size: 30px;
   color: #666;
   font-family: Mukta;
+  padding-left: 5%;
 }
 
 /*Servicios*/
@@ -181,6 +182,85 @@ body {
     padding-left: 50px;
   }
 }
+@media (max-width: 500px) {
+  .logo {
+    width: 25%;
+    height: 25%;
+  }
+  .inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .inicio .content h1 {
+    font-size: 3.3rem;
+    color: aqua;
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-family: Poppins;
+  }
+  .inicio .content p {
+    font-size: 1.5rem;
+    color: #666;
+    padding: 20px;
+    padding-left: 50px;
+  }
+  .servicios .heading {
+    font-family: Poppins;
+  }
+  .servicios .caja-contenedora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+  .servicios .caja-contenedora .caja {
+    flex: 1 1 30rem;
+    background: rgb(236, 228, 228);
+    border: 0.5rem solid rgb(216, 193, 193);
+    margin: 1.5rem;
+    padding: 50px;
+    text-align: center;
+  }
+  .servicios .caja-contenedora .caja h3 {
+    font-size: 30px;
+    color: rgb(187, 147, 147);
+    padding-top: 50px;
+    font-family: Mukta;
+  }
+  .inicio {
+    flex-flow: column-reverse;
+  }
+  .heading {
+    text-align: center;
+    font-size: 50px;
+  }
+  .servicios .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 25px;
+    padding-top: 10px;
+    border-radius: 6rem;
+    background: rgb(218, 204, 204);
+    font-size: 25px;
+    color: rgb(236, 227, 227);
+    cursor: pointer;
+    font-family: Poppins;
+  }
+  .img {
+    height: 200px;
+  }
+  .contacto h1 {
+    font-size: 3.3rem;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family: Poppins;
+  }
+  .contacto .container .col-13 {
+    padding-left: 50px;
+  }
+}
 /*Estilos inicio*/
 *::selection {
   background: rgb(236, 225, 225);
@@ -195,17 +275,37 @@ body {
   height: 10%;
 }
 
-h1 {
+.formulario h1 {
   font-size: 5.5rem;
   color: aqua;
   text-align: center;
   justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.container {
+  padding-bottom: 5%;
 }
 
 @media (max-width: 991px) {
   .logo {
     width: 25%;
     height: 25%;
+  }
+  .formulario h1 {
+    font-size: 3.3rem;
+    padding: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    width: 25%;
+    height: 25%;
+  }
+  .formulario h1 {
+    font-size: 2rem;
+    padding: 20px;
   }
 }
 /*Estilos inicio*/

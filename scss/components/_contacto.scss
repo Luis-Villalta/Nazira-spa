@@ -10,14 +10,30 @@ body {background: nth($color-brand, 1)}
 height: 10%;}
 
 
-h1  {font-size: 5.5rem;
+.formulario h1  {font-size: 5.5rem;
     color: nth($color-brand, 3);
     text-align: center;
-    justify-content: center;}
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;}
+
+.container {padding-bottom: 5%;}
 
 
 @media (max-width: 991px) {
 
     .logo {width: 25%;
     height: 25%;}
+
+    .formulario h1 {font-size: 3.3rem;
+    padding: 20px;}
+}
+
+@media (max-width: 400px) {
+
+    .logo {width: 25%;
+    height: 25%;}
+
+    .formulario h1 {font-size: 2rem;
+    padding: 20px;}
 }

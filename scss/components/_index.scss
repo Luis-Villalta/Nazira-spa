@@ -25,7 +25,8 @@ font-family: $font-h1;}
 
 .inicio .content p {font-size: 30px;
     color: nth($color-brand, 5);;
-    font-family: $font-secundaria;}
+    font-family: $font-secundaria;
+    padding-left: 5%;}
 
 /*Servicios*/
 .servicios .caja-contenedora {display: flex;
@@ -113,6 +114,80 @@ padding-left: 50px;}
     .servicios .caja-contenedora .caja {flex: 1 1 30rem;
     background: nth($color-brand, 9);
     border: 0.5rem solid nth($color-brand, 10);
+    margin: 1.5rem;
+    padding: 50px;
+    text-align: center;
+    }
+    
+    .servicios .caja-contenedora .caja h3 {
+    font-size: 30px;
+    color: nth($color-brand, 6);
+    padding-top: 50px;
+    font-family: $font-secundaria;
+    }
+    
+    .inicio {flex-flow: column-reverse;}
+    
+    .heading {text-align: center;
+    font-size: 50px;}
+    
+    .servicios .btn {display: inline-block;
+    margin-top: 1rem;
+    padding: 25px;
+    padding-top: 10px;
+    border-radius: 6rem;
+    background: nth($color-brand, 4);
+    font-size: 25px;
+    color: nth($color-brand, 11);
+    cursor: pointer;
+    font-family: $font-h1;}
+    
+   
+    .img {height: 200px;}
+
+    .contacto h1 {font-size: 3.3rem;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family: $font-h1;}
+
+    .contacto .container .col-13 {padding-left: 50px;}
+
+}
+
+@media (max-width: 500px) {
+
+    
+    .logo {width: 25%;
+    height: 25%;}
+    
+    .inicio {display: flex;
+    align-items: center;
+    justify-content: center;
+    ;}
+    
+    .inicio .content h1 {font-size: 3.3rem;
+        color: aqua;
+        text-transform: uppercase;
+        padding-top: 50px;
+        font-family: $font-h1;}
+    
+    .inicio .content p {font-size: 1.5rem;
+        color: #666;
+        padding: 20px;
+        padding-left: 50px;}
+    
+    .servicios .heading {font-family:$font-h1;}
+    
+    
+    .servicios .caja-contenedora {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;}
+    
+    .servicios .caja-contenedora .caja {flex: 1 1 30rem;
+    background: nth($color-brand, 10);
+    border: 0.5rem solid nth($color-brand, 7);
     margin: 1.5rem;
     padding: 50px;
     text-align: center;
