@@ -29,7 +29,9 @@ height: 10%;}
 
     .formulario h1 {font-size: 3.3rem;
     padding: 20px;}
-}
+
+    iframe {width: 500px;
+    height: auto;}}
 
 @media (max-width: 500px) {
 
@@ -38,4 +40,7 @@ height: 10%;}
 
     .formulario h1 {font-size: 2rem;
     padding: 20px;}
+
+    iframe {width: 300px;
+    height: auto;}
 }
