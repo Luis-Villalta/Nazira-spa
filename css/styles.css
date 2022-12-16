@@ -298,7 +298,7 @@ body {
     padding: 20px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .logo {
     width: 25%;
     height: 25%;
